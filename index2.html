@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>RA Servicios</title>
+</head>
+<body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>RA Servicios</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Iconos del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!-- Iconos de las redes sociales -->
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Reniel Alvarez</span>, Desarrollador Frontend</h2>
+                <p class="descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum itaque vitae quasi, culpa voluptates maxime voluptatibus fugit accusantium doloremque temporibus, minima ullam quibusdam optio iure veniam tempora illum quae repellendus!</p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SECCION SOBREMI -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/Fotosobre.png" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, soy <span>Reniel Alvarez</span></h2>
+            <h3>Desarrollador Web</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quibusdam cupiditate, quis quidem reiciendis similique laboriosam tenetur ea repellendus quam, ducimus numquam maiores aperiam, molestiae est? Aperiam atque assumenda quas?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat inventore animi cum omnis laudantium eligendi quidem amet. Rerum, architecto corporis. Suscipit sequi ipsum ex error praesentium reiciendis, totam blanditiis minus!</p>
+            <a href="#">Descargar CV</a>
+        </div>
+    </section>
+    
+    <!-- SECCION SERVICIOS -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Grafico</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore at, rem est illo fugit laboriosam impedit voluptates explicabo quod libero corrupti debitis ea id natus reprehenderit? Quod, porro quidem. Laborum.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Facebook Ads</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Lead Generator</li>
+                    <li>Trafico</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore at, rem est illo fugit laboriosam impedit voluptates explicabo quod libero corrupti debitis ea id natus reprehenderit? Quod, porro quidem. Laborum.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de PhotoShop</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Grafico</li>
+                    <li>Animaciones</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore at, rem est illo fugit laboriosam impedit voluptates explicabo quod libero corrupti debitis ea id natus reprehenderit? Quod, porro quidem. Laborum.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Maquetación Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Grafico</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore at, rem est illo fugit laboriosam impedit voluptates explicabo quod libero corrupti debitis ea id natus reprehenderit? Quod, porro quidem. Laborum.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>SEO</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Grafico</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore at, rem est illo fugit laboriosam impedit voluptates explicabo quod libero corrupti debitis ea id natus reprehenderit? Quod, porro quidem. Laborum.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Administrador</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Grafico</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore at, rem est illo fugit laboriosam impedit voluptates explicabo quod libero corrupti debitis ea id natus reprehenderit? Quod, porro quidem. Laborum.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="index.html"><img src="img/web-design.jpg" /></a>
+                <!--<img src="img/web-design.jpg" alt="">-->
+                <div class="info">
+                    <h4>Descripción del Proyecto</h4>
+                    <p>EDUCA+</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/app.jpg" alt="">
+                <div class="info">
+                    <h4>Descripción del Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/educa.jpg" alt="">
+                <div class="info">
+                    <h4>Descripción del Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contacta ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                    <input type="text" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje ..." class="input-full"></textarea>
+                </div>
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservado 2023</p>
+        
+        
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

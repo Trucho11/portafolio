@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>EDUCA+</title>
+    <!--<link rel="stylesheet" href="css/style.css" />-->
+</head>
+<body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>EDUCA+</h1>
+                    <nav class="menu">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">Inicio</a></li>
+                            <li><a href="#cursos" onclick="seleccionar(this)">Cursos</a></li>
+                            <li><a href="#category" onclick="seleccionar(this)">Categorías</a></li>
+                            <li><a href="contacto.html" onclick="seleccionar(this)">Contacto</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Iconos del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu"()>
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!-- Iconos redes sociales -->
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p>Aprende más con <span>EDUCA+</span>, descubre todos los cursos que tenemos para ti.</p>
+                <a href="#cursos">Ir a Cursos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURSOS -->
+    <section id="cursos">
+        <h3 class="titulo-seccion">NUESTROS CURSOS</h3>
+        <div class="fila">
+            <div class="curso">
+                <img src="img2/Javascript.jpg" alt="">
+                <h4>JavaScript</h4>
+                <hr>
+                <div class="star1">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <a href="#">Ir a Curso</a>
+            </div>
+            <div class="curso">
+                <img src="img2/python-logo.png" alt="">
+                <h4>Python</h4>
+                <hr>
+                <div class="star2"><i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#">ir a Curso</a>
+            </div>
+            <div class="curso">
+                <img src="img2/css-curso.png" alt="">
+                <h4>CSS</h4>
+                <hr>
+                <div class="star3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#">Ir a Curso</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SECCION DE CATEGORIAS -->
+    <section id="category">
+        <h3 class="titulo-seccion">Categorías principales</h3>
+        <div class="fila-category">
+            <div class="categoria">
+                <img src="img2/postcategory.jpg" alt="">
+                <h4>Angular Avanzado</h4>
+            </div>
+            <div class="categoria">
+                <img src="img2/postcategory.jpg" alt="">
+                <h4>React Avanzado</h4>
+            </div>
+            <div class="categoria">
+                <img src="img2/postcategory.jpg" alt="">
+                <h4>PHP Básico</h4>
+            </div>
+        </div>
+        <div class="fila-category">
+            <div class="categoria">
+                <img src="img2/postcategory.jpg" alt="">
+                <h4>Python Avanzado</h4>
+            </div>
+            <div class="categoria">
+                <img src="img2/postcategory.jpg" alt="">
+                <h4>JavaScript</h4>
+            </div>
+            <div class="categoria">
+                <img src="img2/postcategory.jpg" alt="">
+                <h4>React Básico</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION DE TEMAS -->
+    <section id="tema">
+        <h4>Temas destacados por categoría</h4>
+        <div class="temas">
+            <div class="tema-titulo">
+                <div>
+                    <h3>Front End</h3>
+                    <a href="#">HTML</a>
+                    <p>3,840 students</p>
+                </div>
+                <div>
+                    <a href="#">CSS</a>
+                    <p>3,840 students</p>
+                </div>
+                <div>
+                    <a href="#">JavaScript</a>
+                    <p>3,281 students</p>
+                </div>
+            </div>
+            <div class="tema-titulo">
+                <div>
+                    <h3>Back End</h3>
+                    <a href="#">Python</a>
+                    <p>3,859 students</p>
+                </div>
+                <div>
+                    <a href="#">PHP</a>
+                    <p>2,490 students</p>
+                </div>
+                <div>
+                    <a href="#">Java</a>
+                    <p>9,100 students</p>
+                </div>
+            </div>
+            <div class="tema-titulo">
+                <div>
+                    <h3>Diseño</h3>
+                    <a href="#">PhotoShop</a>
+                    <p>8,825 students</p>
+                </div>
+                <div>
+                    <a href="#">Figma</a>
+                    <p>3,960 students</p>
+                </div>
+                <div>
+                    <a href="#">Canva</a>
+                    <p>3,890 students</p>
+                </div>
+            </div>
+            <div class="tema-titulo">
+                <div>
+                    <h3>Frameworks</h3>
+                    <a href="#">Angular</a>
+                    <p>3,490 students</p>
+                </div>
+                <div>
+                    <a href="#">Vue JS</a>
+                    <p>1,905 students</p>
+                </div>
+                <div>
+                    <a href="#">React Avanzado</a>
+                    <p>9,327 students</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION INFO -->
+    <section id="info">
+        <div class="seccion-info">
+            <h3>Un aprendizaje interesante</h3>
+            <br>
+            <p>Desarrolla las habilidades que te ayudarán en tu carrera profesional.</p>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <!--<section id="contacto">
+        <img src="img/contact-ima.jpg" alt="">
+      <div class="content">
+        <h4>Contacta con nosotros y orientate sobre nuestros cursos totalmente GRATIS!!!</h4>
+        <a href="#">Contacta AHORA!!</a>
+      </div>
+    </section>-->
+
+    <!-- SECCION FOOTER -->
+    <footer class="footer">
+        <div class="footer-conten">
+            <div class="footer-ubica">
+                <h4>Ubicación</h4>
+                <p class="text-muted">Calle de Otagua 95, Madrid C.P 28041</p>
+            </div>
+            <div class="footer-contacto">
+                <h4>Contacto</h4>
+                <p class="text-muted">Teléfono: +341 234 567 89</p>
+            </div>
+            <div class="footer-social">
+                <h4>Redes Sociales</h4>
+                <div class="footer-social-icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                </div>
+            </div>
+            <div class="footer-copy-text-muted">
+                <p>Copyright © EDUCA+ Todos los derechos reservado 2023</p>
+            </div>
+
+        </div>
+    </footer>
+       
+    <script src="script1.js"></script>
+</body>
+</html>
